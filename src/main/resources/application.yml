@@ -1,0 +1,10 @@
+nacos:
+  config:
+    server-addr: localhost:8848
+    type: yaml
+    data-ids: user-center-dtp-dev.yml
+    auto-refresh: true
+    group: DEFAULT_GROUP
+    bootstrap:
+      enable: true
+      log-enable: true
